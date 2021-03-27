@@ -1,2 +1,4 @@
 # kudvenkat-angularjs
-Educational project - .Net and AngularJS practice
+Educational project - .Net and AngularJS practice  
+
+https://www.youtube.com/watch?v=zKkUN-mJtPQ&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl
