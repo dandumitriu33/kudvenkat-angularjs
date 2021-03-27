@@ -4,3 +4,35 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+<div ng-app="secondapp">
+
+    <div ng-controller="HeaderController">
+        <p class="bg-info">
+            {{ message }}
+        </p>
+    </div>
+
+    {{ 1 + 1 }}
+    <div ng-controller="MainController">
+        <p>Name: {{ employee.firstName }} {{ employee.lastName }}</p>
+        <p>Age: {{ employee.age }}</p>
+    </div>
+
+    <div ng-controller="FooterController">
+        <p class="bg-info">
+            {{ message }}
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    @*Modules*@
+    <script src="~/js/secondapp.js"></script>
+    @*Controllers*@
+    <script src="~/js/secondApp/controllers/MainController.js"></script>
+    <script src="~/js/secondapp/controllers/HeaderController.js"></script>
+    <script src="~/js/secondapp/controllers/FooterController.js"></script>
+    @*Directives*@
+    @*<script src="~/js/directives/singlelist.js"></script>*@
+}

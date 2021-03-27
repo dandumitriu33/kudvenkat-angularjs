@@ -1,0 +1,1 @@
+﻿var secondapp = angular.module('secondapp', []);
